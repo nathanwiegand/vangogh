@@ -22,6 +22,8 @@
 #    2.) Add support for pull request URLs
 #        (e.g. https://github.com/vangogh/vangogh/pull/1)
 #    3.) Detect and bail when we get a bad URL.
+#    4.) If the diff is empty between the branch and 'origin' then print a
+#        message instead of failing.
 #
 # Need to do the following sometime soon:
 #    1.) Have the decription auto-populated with only the commit information
